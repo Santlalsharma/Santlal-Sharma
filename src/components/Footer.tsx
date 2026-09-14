@@ -43,6 +43,7 @@ export const Footer: React.FC<FooterProps> = ({ darkMode }) => {
             <a href="#projects" className="hover:text-orange-500 transition-colors">Projects</a>
             <a href="#experience" className="hover:text-orange-500 transition-colors">Experience</a>
             <a href="#services" className="hover:text-orange-500 transition-colors">Services</a>
+            <a href="#drive" className="hover:text-orange-500 transition-colors">Google Drive</a>
             <a href="#contact" className="hover:text-orange-500 transition-colors">Contact</a>
           </div>
 

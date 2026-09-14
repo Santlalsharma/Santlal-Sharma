@@ -26,6 +26,7 @@ export const Navbar: React.FC<NavbarProps> = ({ darkMode, onToggleDarkMode, onOp
     { name: 'Projects', href: '#projects' },
     { name: 'Experience', href: '#experience' },
     { name: 'Services', href: '#services' },
+    { name: 'Google Drive', href: '#drive' },
     { name: 'Contact', href: '#contact' },
   ];
 

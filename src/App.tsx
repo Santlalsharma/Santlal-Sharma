@@ -8,6 +8,7 @@ import { ProjectModal } from './components/ProjectModal';
 import { Experience } from './components/Experience';
 import { Services } from './components/Services';
 import { Testimonials } from './components/Testimonials';
+import { DriveExplorer } from './components/DriveExplorer';
 import { Contact } from './components/Contact';
 import { ResumeModal } from './components/ResumeModal';
 import { Footer } from './components/Footer';
@@ -120,6 +121,9 @@ export default function App() {
 
         {/* Endorsements & Reviews */}
         <Testimonials darkMode={darkMode} />
+
+        {/* Google Drive Document & Cloud Asset Hub */}
+        <DriveExplorer darkMode={darkMode} onShowToast={showToast} />
 
         {/* Interactive Contact Section */}
         <Contact darkMode={darkMode} />
